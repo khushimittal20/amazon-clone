@@ -192,7 +192,7 @@
     display: flex;
     flex-wrap:wrap;
     justify-content: space-evenly;
-    background-color: #91d8cb; /* Background for the section */
+    background-color: #91d8cb; 
     padding: 10px;
 }
 
@@ -210,7 +210,7 @@
     margin-bottom: 10px;
 }
 
-/* Images Container in Box 1 and Box 2 */
+
 .box1-images, .box2-images {
     display: flex;
     justify-content: space-between;
@@ -220,7 +220,7 @@
 }
 
 .box1-images div, .box2-images div {
-    flex: 1 1 45%; /* Adjust size of each sub-box */
+    flex: 1 1 45%; 
     text-align: left;
 }
 
@@ -229,13 +229,13 @@
     height: auto;
 }
 
-/* Styling for the text under images (e.g., "For him", "Headsets") */
+
 .box1-images p, .box2-images p {
     font-size: 0.8rem;
     margin-top: 5px;
 }
 
-/* Links */
+
 .box a {
     text-decoration: none;
     color: #007185; 
@@ -247,7 +247,7 @@
 .box a:hover {
     text-decoration: underline; 
 
-/* Optional: Hover Effects on Images */
+
 .box1-images a img, .box2-images a img, .box3 a img, .box4 a img {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
